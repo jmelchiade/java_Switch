@@ -1,4 +1,4 @@
-public class Certification {
+class Certification {
     int code;
     double cost;
     String s;
@@ -16,12 +16,15 @@ public class Certification {
             case 1:
                 cost = cost + LIFE_INSURANCE;
                 s = s + "life insurance";
+                break;
             case 2:
                 cost = cost + HEALTH_INSURANCE;
                 s = s + "Health insurance";
+                break;
             case 3:
                 cost = cost + MORTGAGE;
                 s = s + "Mortgage";
+                break;
             case 4:
                 cost = cost + APPRAISAL;
                 s = s + "Appraisal";
